@@ -1,2 +1,2 @@
-![alt text] https://github.com/VladisLav091/Lab4/blob/main/6SRtpvPusho.jpg
+![alt text] (screenshots/6SRtpvPusho.jpg)
 
