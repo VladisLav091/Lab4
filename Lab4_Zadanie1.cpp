@@ -1,7 +1,7 @@
-﻿#include <iostream>
+#include <iostream>
 #include <ctime>
 #define N 10
-#define M 7
+#define M 4
 using namespace std;
 
 void Zapolnenie(int* pa) {
@@ -24,9 +24,9 @@ void fun(int a[N][M], int* pb) {
 			}
 		}
 	}
-	for (int i = 0; i < N / 2; i++)
+	for (int j = 0; j < (M+1) / 2; j++ )
 	{
-		cout << pb[i] << "\t" << "\t";
+		cout << pb[j] << "\t" << "\t";
 	}
 }
 
@@ -36,7 +36,7 @@ int main() {
 	int a[N][M];
 	Zapolnenie(&a[0][0]);
 	int b[N / 2];
-	for (int i = 0; i < N / 2; i++)
+	for (int i = 0; i < (M+1) / 2; i++)
 	{
 		b[i] = 0;
 	}
